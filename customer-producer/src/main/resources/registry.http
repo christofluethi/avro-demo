@@ -1,0 +1,13 @@
+# Get all Subjects
+GET http://localhost:8085/apis/ccompat/v6/subjects
+
+###
+
+
+# Create Customer value schema
+POST http://localhost:8085/apis/ccompat/v6/subjects/customer-value/versions
+Content-Type: application/vnd.schemaregistry.v1+json
+
+< avro-src/customer-value.avsc
+
+###

@@ -1,0 +1,12 @@
+POST http://localhost:8082/customer
+Content-Type: application/json
+
+{
+  "firstName" : "john",
+  "lastName":  "smith",
+  "age":  36,
+  "height":  181,
+  "weight": 91
+}
+
+###
